@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Model selection is disabled. Azure is the only active LLM provider.
+   Gemini code remains commented for future reactivation. */
+
+@layer base {
+  body {
+    @apply bg-black text-white font-sans h-full;
+  }
+}
