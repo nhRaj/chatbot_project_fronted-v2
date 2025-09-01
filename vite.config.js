@@ -17,10 +17,6 @@ export default defineConfig({
         target: 'http://localhost:8000',
         changeOrigin: true,
       },
-      '/preview-data': {
-        target: 'http://localhost:8000',
-        changeOrigin: true,
-      },
       '/common-questions': {
         target: 'http://localhost:8000',
         changeOrigin: true,

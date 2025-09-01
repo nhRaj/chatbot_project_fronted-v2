@@ -2,7 +2,6 @@
 
 This React frontend communicates with the backend REST APIs to:
 - Upload a bank statement
-- Preview the cleaned transaction data
 - Ask questions using Azure GPT (Gemini temporarily disabled)
 - Manage chat sessions
 

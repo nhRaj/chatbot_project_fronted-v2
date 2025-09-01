@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
 import axios from 'axios'
-import PreviewData from './components/PreviewData'
 import CommonQuestions from './components/CommonQuestions'
 import SavedChats from './components/SavedChats'
 import ModelSelector from './components/ModelSelector'
@@ -135,11 +134,6 @@ function App() {
                 ))
               )}
             </select>
-            <PreviewData
-              sessionId={sessionId}
-              chatId={chatId}
-              fileId={selectedFileId}
-            />
           </div>
           <div className="flex-1 overflow-y-auto px-4 pb-4 space-y-4 text-sm">
             <CommonQuestions
